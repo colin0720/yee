@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
-int i,s; 
+int ID,Sum; 
 int main(int argc, char *argv[]) {
-	for(i=0;i<10;i++){
-		s=s+i; 
+	for(ID=0;ID<10;ID++){
+		Sum=Sum+ID; 
 	}
-	printf("s=%d",s); 
+	printf("Sum=%d",Sum); 
 		return 0;
 }
